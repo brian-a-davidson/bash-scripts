@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script Name: prestage_app_upgrade.sh
 # Developer: Brian Davidson
-# Purpose: Prestage software for an upgrade
+# Purpose: Prestages software (java/tomcat/umb) for UMB application upgrades
 # Version: 1.5
 
 # Error OUTPUT-COLORING
