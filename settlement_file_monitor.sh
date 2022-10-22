@@ -1,7 +1,7 @@
 #!/bin/sh
 # Script Name: settlement_file_monitor.sh
 # Developer: Brian Davidson
-# Purpose: Send an email if settlement file has been received for the day
+# Purpose: Send an email if the settlement file has been received for the day
 # Version: 1.0
 
 # Local Date Variables
