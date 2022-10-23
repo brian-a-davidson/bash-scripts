@@ -17,8 +17,8 @@ config_file=/opt/monitor_scripts/config_files/gs_file_config.txt
 file_list_name=/opt/monitor_scripts/config_files/gs_file_list.txt
 
 # Local Email Variables
-sender_email="brian.allan.davidson@gmail.com"
-email_list="brian.allan.davidson@gmail.com"
+sender_email="test-email@gmail.com"
+email_list="test-email@gmail.com"
 
 # Get Remote Variables
 filedate=$(sed -n 's/DATE=//p' $config_file)
