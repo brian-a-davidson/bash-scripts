@@ -17,12 +17,12 @@ service_message=/opt/monitor_scripts/config_files/service_desk_message.txt
 dir="/shared/sftp/metraprod/files"
 
 # Local Email Variables
-sender_email="brian.allan.davidson@gmail.com"
-email_list="brian.allan.davidson@gmail.com"
+sender_email="test-email@gmail.com"
+email_list="test-email@gmail.com"
 
 # Local Fail Email Variables
-fail_sender="brian.allan.davidson@gmail.com"
-fail_email_list="brian.allan.davidson@gmail.com"
+fail_sender="test-email@gmail.com"
+fail_email_list="test-email@gmail.com"
 
 # Log yesterdays file
 cat $file_list_name > $file_list_name_yt
