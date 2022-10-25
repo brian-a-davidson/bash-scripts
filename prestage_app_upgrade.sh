@@ -37,7 +37,7 @@ read -r -p "Do you want to install a new version of java [Y/N]:"  java_response
 
 
 
-# Check if java softare is in /tmp instead of software
+# Check if java software is in /tmp instead of software
 if [ -n "$install_java" ] && [ -z "$new_java_tar" ]
         then
         new_java_tar=$(find $tmp_dir -type f -name "$java_version".gz -mtime -30 -printf "%f\n" | sort -n | head -1)
